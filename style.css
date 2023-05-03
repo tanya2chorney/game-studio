@@ -42,7 +42,7 @@ ul {
   color: #2196f3;
 }
 .hero {
-  background-image: url(HeroBG.jpg);
+  background-image: url(/images/HeroBG.jpg);
   padding-top: 158px;
   padding-bottom: 158px;
   background-position: center;
@@ -89,4 +89,14 @@ section {
 
 .game-info{
   padding: 20px 24px 30px;
+  line-height: 30px;
+}
+.game-title{
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.game-text{
+  color: #757575;
+  letter-spacing: 0.03em;
+ 
 }
