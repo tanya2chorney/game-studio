@@ -46,7 +46,7 @@
     <main>
       <section>
         <h2 class="section-title">Виберіть свою гру</h2>
-      </section>
+      
       <div class="conteiner">
         <ul class="game-list">
           <li>
@@ -95,11 +95,7 @@
           <li>
             <!-- Game Card-World of tanks-->
             <article class="game">
-              <img
-                src="images/WOT.jpg"
-                alt="World of tanks"
-                class="game-img"
-              />
+              <img src="images/WOT.jpg" alt="World of tanks" class="game-img" />
               <div class="game-info">
                 <h3 class="game-title">World of tanks</h3>
                 <p class="game-text">Занурся в атмосферу воєнних поєдинків.</p>
@@ -109,6 +105,65 @@
           </li>
         </ul>
       </div>
+    </section>
+      <section>
+        <h2 class="section-title">Зв'яжіться з нами</h2>
+
+        <form class="contact-form" action="" method="">
+          <div class="form-field">
+            <label class="form-label" for="nameInput">Ім'я</label>
+            <input
+              class="form-input"
+              id="nameInput"
+              placeholder="Введіть ваше ім'я"
+              required
+              minlength="2"
+              type="text"
+            />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="phoneInput">Номер телефону</label>
+            <input
+              class="form-input"
+              id="phoneInput"
+              placeholder="+38 099 111 11 11"
+              required
+              type="tel"
+            />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="emailInput">Електронна пошта</label>
+            <input
+              class="form-input"
+              id="emaleInput"
+              placeholder="Введіть ваш e-mail"
+              required
+              type="email"
+            />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="comentInput">Коментар</label>
+            <textarea
+              class="form-input"
+              id="comentInput"
+              placeholder="Введіть ваш коментар"
+              required
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button class="btn" >Надіслати</buttonclass>
+        </form>
+      </section>
     </main>
+    <footer class="footer">
+      <a href="/index.html" class="logo logo-footer" >
+        <span class="logo-game">Game</span><span>Studio</span>
+      </a> 
+      <address class="footer--address">м. Київ, просп. Лесі Українки, 26</address>
+   <a href="mailto:info@example.com" class="footer--email">info@example.com</a>
+   <a href="tel:+380991111111" class="footer--phone">+38 099 111 11 11</a>
+    
+  </footer>
   </body>
 </html>
